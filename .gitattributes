@@ -1,7 +1,2 @@
 *.cmake linguist-vendored
-
-# Ignore the main CMake configuration file
 CMakeLists.txt linguist-vendored
-
-# Ignore a specific directory used for vendored CMake modules
-vendor/cmake/** linguist-vendored
