@@ -37,28 +37,6 @@ make -j4
 - On Windows: MinGW-w64 or MSYS2
 - On Linux: g++ and standard build tools
 
-## Project Structure
-
-```
-├── include/
-│   ├── dns/          # DNS-related headers
-│   │   ├── header.hpp
-│   │   ├── question.hpp
-│   │   ├── record.hpp
-│   │   ├── packet.hpp
-│   │   ├── parser.hpp
-│   │   ├── encoder.hpp
-│   │   ├── cache.hpp
-│   │   └── resolver.hpp
-│   └── net/
-│       └── udp.hpp   # UDP client
-├── src/
-│   ├── main.cpp
-│   ├── dns/          # DNS implementations
-│   └── net/
-│       └── udp.cpp   # Cross-platform UDP (Winsock + POSIX)
-└── CMakeLists.txt
-```
 
 ## How It Works
 
@@ -83,15 +61,6 @@ make -j4
 - Cache is in-memory only (lost when program exits)
 - Timeout handling could be better
 
-## Future Ideas
-
-If I come back to this:
-- [ ] Add AAAA record support (IPv6)
-- [ ] Implement actual recursive resolution
-- [ ] Better error handling
-- [ ] Make DNS server configurable via CLI
-- [ ] Add more record types (MX, CNAME, etc.)
-- [ ] Save cache to disk
 
 ## Example Usage
 
