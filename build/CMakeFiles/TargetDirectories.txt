@@ -1,0 +1,3 @@
+C:/Users/Woundex/Documents/Project/Tkawt/DNS RESOLVER/build/CMakeFiles/dns_resolver.dir
+C:/Users/Woundex/Documents/Project/Tkawt/DNS RESOLVER/build/CMakeFiles/edit_cache.dir
+C:/Users/Woundex/Documents/Project/Tkawt/DNS RESOLVER/build/CMakeFiles/rebuild_cache.dir
